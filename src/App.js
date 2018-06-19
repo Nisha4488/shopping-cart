@@ -8,7 +8,7 @@ import CartItems from './CartItems'
 const App = () => (
   <div>
     <CartHeader />
-    <CartFooter />
+    <CartFooter year="2016"/>
     <CartItems/>
   </div>
 )
